@@ -412,3 +412,10 @@ table th {
         justify-content: center;
     }
 }
+
+/* Animation Styles */
+@keyframes spin { 
+    100% { 
+        transform:rotate(360deg); 
+    } 
+}
