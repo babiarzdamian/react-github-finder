@@ -10,6 +10,7 @@ const UserItem = ({ user: { login, avatar_url, html_url } }) => {
                 className="round-img"
                 style={{
                     width: '60px',
+                    height: '60px',
                     border: 'dotted 3px var(--primary-color)',
                 }}
             />
